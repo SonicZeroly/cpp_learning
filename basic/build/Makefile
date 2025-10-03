@@ -176,6 +176,54 @@ src/chapter_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_2.cpp.s
 .PHONY : src/chapter_2.cpp.s
 
+src/chapter_3.obj: src/chapter_3.cpp.obj
+.PHONY : src/chapter_3.obj
+
+# target to build an object file
+src/chapter_3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_3.cpp.obj
+.PHONY : src/chapter_3.cpp.obj
+
+src/chapter_3.i: src/chapter_3.cpp.i
+.PHONY : src/chapter_3.i
+
+# target to preprocess a source file
+src/chapter_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_3.cpp.i
+.PHONY : src/chapter_3.cpp.i
+
+src/chapter_3.s: src/chapter_3.cpp.s
+.PHONY : src/chapter_3.s
+
+# target to generate assembly for a file
+src/chapter_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_3.cpp.s
+.PHONY : src/chapter_3.cpp.s
+
+src/chapter_4.obj: src/chapter_4.cpp.obj
+.PHONY : src/chapter_4.obj
+
+# target to build an object file
+src/chapter_4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_4.cpp.obj
+.PHONY : src/chapter_4.cpp.obj
+
+src/chapter_4.i: src/chapter_4.cpp.i
+.PHONY : src/chapter_4.i
+
+# target to preprocess a source file
+src/chapter_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_4.cpp.i
+.PHONY : src/chapter_4.cpp.i
+
+src/chapter_4.s: src/chapter_4.cpp.s
+.PHONY : src/chapter_4.s
+
+# target to generate assembly for a file
+src/chapter_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_4.cpp.s
+.PHONY : src/chapter_4.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +239,12 @@ help:
 	@echo ... src/chapter_2.obj
 	@echo ... src/chapter_2.i
 	@echo ... src/chapter_2.s
+	@echo ... src/chapter_3.obj
+	@echo ... src/chapter_3.i
+	@echo ... src/chapter_3.s
+	@echo ... src/chapter_4.obj
+	@echo ... src/chapter_4.i
+	@echo ... src/chapter_4.s
 .PHONY : help
 
 
