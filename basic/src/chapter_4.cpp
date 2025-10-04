@@ -159,7 +159,7 @@ void test_4_8(void){
  * 完成编程练习6，但使用 new 来动态分配数组，而不是声明一个包含 3 个元素的 CandyBar 数组。
  */
 void test_4_9(void){
-    CandyBar* candybar_list{new CandyBar[3]{
+    CandyBar* candybar_list{new CandyBar[3]{    // 此处不需要{{}}
         {"Mocha Munch", 2.3, 350},
         {"Big Rabbit", 5, 300},
         {"Joy Boy", 4.1, 430}
