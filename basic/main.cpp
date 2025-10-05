@@ -4,6 +4,7 @@
 
 #include "chapter_4.h"
 #include "chapter_5.h"
+#include "chapter_6.h"
 
 int main(void){
     // test_2_1();
@@ -29,6 +30,12 @@ int main(void){
     // test_5_7();
     // test_5_8();
     // test_5_9();
+
+    // test_6_2();
+    // test_6_4();
+    // test_6_6();
+    // test_6_8();
+    test_6_9();
 
     return 0;
 }

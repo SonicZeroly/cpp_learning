@@ -28,5 +28,11 @@
   "command": "F:\\mingw64\\bin\\g++.exe  @CMakeFiles/app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\app.dir\\src\\chapter_5.cpp.obj -c J:\\my_project\\04_my_github\\cpp_learning\\basic\\src\\chapter_5.cpp",
   "file": "J:/my_project/04_my_github/cpp_learning/basic/src/chapter_5.cpp",
   "output": "CMakeFiles/app.dir/src/chapter_5.cpp.obj"
+},
+{
+  "directory": "J:/my_project/04_my_github/cpp_learning/basic/build",
+  "command": "F:\\mingw64\\bin\\g++.exe  @CMakeFiles/app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\app.dir\\src\\chapter_6.cpp.obj -c J:\\my_project\\04_my_github\\cpp_learning\\basic\\src\\chapter_6.cpp",
+  "file": "J:/my_project/04_my_github/cpp_learning/basic/src/chapter_6.cpp",
+  "output": "CMakeFiles/app.dir/src/chapter_6.cpp.obj"
 }
 ]

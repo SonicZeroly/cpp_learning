@@ -248,6 +248,30 @@ src/chapter_5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_5.cpp.s
 .PHONY : src/chapter_5.cpp.s
 
+src/chapter_6.obj: src/chapter_6.cpp.obj
+.PHONY : src/chapter_6.obj
+
+# target to build an object file
+src/chapter_6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_6.cpp.obj
+.PHONY : src/chapter_6.cpp.obj
+
+src/chapter_6.i: src/chapter_6.cpp.i
+.PHONY : src/chapter_6.i
+
+# target to preprocess a source file
+src/chapter_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_6.cpp.i
+.PHONY : src/chapter_6.cpp.i
+
+src/chapter_6.s: src/chapter_6.cpp.s
+.PHONY : src/chapter_6.s
+
+# target to generate assembly for a file
+src/chapter_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/chapter_6.cpp.s
+.PHONY : src/chapter_6.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -272,6 +296,9 @@ help:
 	@echo ... src/chapter_5.obj
 	@echo ... src/chapter_5.i
 	@echo ... src/chapter_5.s
+	@echo ... src/chapter_6.obj
+	@echo ... src/chapter_6.i
+	@echo ... src/chapter_6.s
 .PHONY : help
 
 
