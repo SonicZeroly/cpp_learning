@@ -176,6 +176,30 @@ src/array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/array.cpp.s
 .PHONY : src/array.cpp.s
 
+src/linked_list.obj: src/linked_list.cpp.obj
+.PHONY : src/linked_list.obj
+
+# target to build an object file
+src/linked_list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/linked_list.cpp.obj
+.PHONY : src/linked_list.cpp.obj
+
+src/linked_list.i: src/linked_list.cpp.i
+.PHONY : src/linked_list.i
+
+# target to preprocess a source file
+src/linked_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/linked_list.cpp.i
+.PHONY : src/linked_list.cpp.i
+
+src/linked_list.s: src/linked_list.cpp.s
+.PHONY : src/linked_list.s
+
+# target to generate assembly for a file
+src/linked_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/linked_list.cpp.s
+.PHONY : src/linked_list.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... src/array.obj
 	@echo ... src/array.i
 	@echo ... src/array.s
+	@echo ... src/linked_list.obj
+	@echo ... src/linked_list.i
+	@echo ... src/linked_list.s
 .PHONY : help
 
 

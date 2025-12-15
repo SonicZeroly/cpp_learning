@@ -3,6 +3,8 @@
 #include "array.h"
 #include <math.h>
 
+using namespace array;
+
 /**
  * 【704. 二分查找】（重点：区间的开与闭）
  * 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，
@@ -181,6 +183,7 @@ std::vector<std::vector<int>> Solution::generateMatrix(int n){
     }
     return matrix;
 #else
+
 #endif
 }
 
