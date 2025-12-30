@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/app.dir/main.cpp.obj"
   "CMakeFiles/app.dir/main.cpp.obj.d"
+  "CMakeFiles/app.dir/src/_string.cpp.obj"
+  "CMakeFiles/app.dir/src/_string.cpp.obj.d"
   "CMakeFiles/app.dir/src/array.cpp.obj"
   "CMakeFiles/app.dir/src/array.cpp.obj.d"
+  "CMakeFiles/app.dir/src/hash_table.cpp.obj"
+  "CMakeFiles/app.dir/src/hash_table.cpp.obj.d"
   "CMakeFiles/app.dir/src/linked_list.cpp.obj"
   "CMakeFiles/app.dir/src/linked_list.cpp.obj.d"
   "app.exe"

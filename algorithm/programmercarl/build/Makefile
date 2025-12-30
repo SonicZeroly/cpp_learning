@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/_string.obj: src/_string.cpp.obj
+.PHONY : src/_string.obj
+
+# target to build an object file
+src/_string.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/_string.cpp.obj
+.PHONY : src/_string.cpp.obj
+
+src/_string.i: src/_string.cpp.i
+.PHONY : src/_string.i
+
+# target to preprocess a source file
+src/_string.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/_string.cpp.i
+.PHONY : src/_string.cpp.i
+
+src/_string.s: src/_string.cpp.s
+.PHONY : src/_string.s
+
+# target to generate assembly for a file
+src/_string.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/_string.cpp.s
+.PHONY : src/_string.cpp.s
+
 src/array.obj: src/array.cpp.obj
 .PHONY : src/array.obj
 
@@ -175,6 +199,30 @@ src/array.s: src/array.cpp.s
 src/array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/array.cpp.s
 .PHONY : src/array.cpp.s
+
+src/hash_table.obj: src/hash_table.cpp.obj
+.PHONY : src/hash_table.obj
+
+# target to build an object file
+src/hash_table.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/hash_table.cpp.obj
+.PHONY : src/hash_table.cpp.obj
+
+src/hash_table.i: src/hash_table.cpp.i
+.PHONY : src/hash_table.i
+
+# target to preprocess a source file
+src/hash_table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/hash_table.cpp.i
+.PHONY : src/hash_table.cpp.i
+
+src/hash_table.s: src/hash_table.cpp.s
+.PHONY : src/hash_table.s
+
+# target to generate assembly for a file
+src/hash_table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/hash_table.cpp.s
+.PHONY : src/hash_table.cpp.s
 
 src/linked_list.obj: src/linked_list.cpp.obj
 .PHONY : src/linked_list.obj
@@ -212,9 +260,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/_string.obj
+	@echo ... src/_string.i
+	@echo ... src/_string.s
 	@echo ... src/array.obj
 	@echo ... src/array.i
 	@echo ... src/array.s
+	@echo ... src/hash_table.obj
+	@echo ... src/hash_table.i
+	@echo ... src/hash_table.s
 	@echo ... src/linked_list.obj
 	@echo ... src/linked_list.i
 	@echo ... src/linked_list.s
